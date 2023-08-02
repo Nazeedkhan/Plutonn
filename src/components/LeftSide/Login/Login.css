@@ -1,0 +1,106 @@
+.container {
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.15);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 280px;
+  padding: 0 28px 40px;
+  text-align: center;
+  margin-top: 3.8rem;
+}
+
+.write {
+  margin-top: -12vh;
+}
+
+.write h2 {
+  font-size: 21px;
+}
+
+.write h3 {
+  font-size: 15px;
+  color: rgb(65, 65, 65);
+  margin-bottom: 0.6rem;
+}
+
+.write p {
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(64, 63, 63);
+}
+
+.image {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.boximg {
+  height: 100%;
+  width: 100%;
+}
+
+.border {
+  transform: rotate(90deg);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: -50%;
+  left: 40%;
+}
+
+.emoji {
+  height: 60px;
+  width: 60px;
+  top: -27%;
+  left: 60%;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.15);
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  background-color: #f45046;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  line-height: 27px;
+  padding: 8px 24px;
+  margin-left: 2.8rem;
+  bottom: 0;
+  margin-bottom: -5rem;
+  margin-top: 1rem;
+}
+
+.icons {
+  font-size: 1.6rem;
+  margin-left: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.loginText {
+  font-size: 16px;
+  margin-left: -5px;
+}
+
+.h2_login{
+  font-weight: 600;
+}

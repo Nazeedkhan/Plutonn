@@ -1,0 +1,104 @@
+.container5 {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  margin-left: -15px;
+  margin-top: 10px;
+}
+
+.bind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.suggestedAccountbottom {
+  justify-content: space-between;
+}
+
+.dateCss {
+  color: red;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: -3px;
+}
+
+.uernameAndDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: -5px;
+}
+
+.username1 {
+  margin-left: -2px;
+}
+
+.posts_details {
+  padding: 0px 18px;
+  color: rgb(45, 45, 45);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1.01px;
+}
+
+.post_img {
+  width: inherit;
+  padding: 20px 20px;
+  justify-content: center;
+}
+.post_img_2 {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.leftIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 0;
+}
+.likes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.leftShift {
+  margin-left: -10px;
+}
+
+.likeBy_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.15);
+}

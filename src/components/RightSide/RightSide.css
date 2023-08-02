@@ -1,0 +1,94 @@
+.container10 {
+  width: 28%;
+  margin-top: 0;
+}
+.searchInput {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  background-color: white;
+  margin-top: -12px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.searchicon {
+  color: red;
+  font-size: 20px;
+  margin-left: -15%;
+}
+
+.searchInput:focus {
+  text-decoration: none;
+  border: none;
+}
+
+.heading_popular {
+  padding: 0 30px;
+  font-size: 20px;
+  color: rgb(67, 67, 67);
+  margin-top: -12px;
+  font-weight: 500;
+}
+.communities_list {
+  padding: 0px 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.communities_image {
+  width: 40px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.15);
+}
+/* .community_name{
+    display: flex;
+    justify-content: center;
+
+} */
+
+.bindUs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.community_name {
+  margin-left: -5px;
+}
+.community_heading {
+  font-weight: 400;
+  color: rgb(44, 44, 44);
+}
+
+.community_folowers {
+  color: rgb(161, 161, 161);
+}
+
+.joinsUs {
+  color: rgb(114, 114, 114);
+}
+
+.plus_icons {
+    margin-right: -10%;
+  font-size: 16px;
+  color: red;
+}
+.join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
